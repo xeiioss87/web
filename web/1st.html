@@ -1,0 +1,98 @@
+<head>
+ <title>1st web HTML</title> <!--웹 페이지 제목-->
+ <meta charset="utf-8"> <!--캐릭터셋 지정-->
+</head>
+
+<body>
+    <h1>WEB</h1>
+ Hello world.
+ 시작은 언제나 옳다. 
+ <!-- 이거슨 주석 -->
+ <!-- 1# HTML 에서 줄넘김 <br> 사용 -->
+ 
+ <h2>HTML</h2> <!-- 제목(head) h1 태그 : 숫자 인자 값으로 크기 조절 가능-->
+ 
+ <h3>HTML 파일 생성 및 웹에서 보기</h3>
+ 
+ 이 다음 라인부터 줄넘어감 <br> <!-- 한줄 띄우기 -->
+ 
+ 두줄 띄우기<br><br>
+ 
+ <p> <!--단락 -->
+     web - HTML 첫걸음 <br>
+     visual studio code 다운로드 <br>
+     1st.html 파일 생성 <br>
+     html 확장자를 가진 파일을 웹브라우저 형태로 곧장 확인이 가능하다. <br>
+     코드 내용을 수정하고 저장 후 새로고침을 하면 수정된 내용 확인가능 <br>
+ </p>
+ 
+ <!--여백을 추가 하는 CSS 문법-->
+ <p style="margin-top: 50px;">
+     p태그 안에 CSS문법을 활용한 여백 추가가능 <br>
+     visual studio 활용하면 자동완성으로 손쉽게 작성가능 <br>
+ 
+ </p>
+ 
+ 
+ <h3>HTML 문법 - 각종 태그</h3>
+ 
+ <br>
+ 웹 에서 문법 표현 문자열을 표기하려면 이스케이프 문자 사용
+ &lt;br&gt; 주석참고  <!--왼쪽의 문자는 실제로는 다음과 같다. &lt;br&gt; 
+             해당 문자를 다시 웹에 표현하려면 각 특수문자에 해당하는 이스케이프 문자를 입력.. --> 
+ <br>
+ <strong>강조 된 문자열</strong>
+ <br>
+ 밑줄 긋기
+ <br>
+ <u>밑줄 그은 문자열</u>
+ <br>
+ <strong><u>강조하고 밑줄 까지</u></strong>
+ 
+ <h3>이미지 저장하기</h3>
+ 로컬에 저장한 파일 ( visual studio 에서 프로젝트 경로에 저장시 파일 확인 및 관리 가능)<br>
+ 
+ 이미지 파일 상대 경로 지정 및 가로-세로 크기 비율 조절 (지정 안하면 엄청 크게 나옴) <br>
+ <img src="coding.jpg" width="30%" height="30%">  
+ 
+ 이미지 파일 절대 경로 지정 및 가로-세로 크기 값 조절 <br>
+ <img src="C:\dev\web\coding.jpg" width="250" height="200"> <br>
+ 
+ 
+ 실제 이미지 주소 URL 도 가능 (코드 참조) <br> 
+ <!--
+ <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80">
+ -->
+ 
+ 
+ <h3>목차 만들기</h3>
+ 
+ <li>1.HTML</li>
+ <li>2.CSS</li>
+ <li>3.JavaScript</li>
+ <br>
+ 여러 목차를 그룹화 하기 (ul 태그와 li 태그가 부모자식관계)<br>
+ 여러 리스트를 ul 태그 단위로 묶어서 구분<br>
+ <ul>
+     <li>1.Programming</li>
+     <li>2.DataBase</li>
+     <li>3.Cloud</li>
+ </ul>
+ <ul>
+     <li>1.C</li>
+     <li>2.C++</li>
+     <li>3.JAVA</li>
+ </ul>
+ 
+ ol 태그를 쓰면 숫자를 자동으로 입력/관리 해줌
+ <ol> 
+     <li>QA</li>
+     <li>PS</li>
+     <li>RND</li>
+ </ol>
+ 
+ <h3>링크 만들기</h3>
+  <a href="https://www.naver.com/"> Naver로 가는 링크 </a> <br>
+  <a href="https://www.naver.com/" target="_blank"> 새창을 띄워서 Naver로 가는 링크 </a> <br>
+  <a href="https://www.naver.com/" target="_blank" title="go naver"> 마우스 대면 툴팁 표시 </a> <br>
+</body>
